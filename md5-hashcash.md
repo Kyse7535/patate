@@ -39,11 +39,11 @@ $ echo -n "000000000000034Chello" | md5sum | tr a-z A-Z
 ```
 
 ```
-00441745D9BDF8E5D3C7872AC9DBB2C3  -
+00441745D9BDF8E5D3C7872AC9DBB2C3-
 ```
 
 
-Nous utiliserons ainsi les types suivants en entrée et sortie de du challenge `MD5HashCash`. 
+Nous utiliserons ainsi les types suivants en entrée et sortie de du challenge `MD5HashCash`.
 
 ```rust
 struct MD5HashCashInput {
